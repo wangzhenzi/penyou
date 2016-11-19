@@ -1,0 +1,6 @@
+* userId 用户ID
+* token 用户免登录token 唯一码
+* timestamp 请求时间戳,秒数
+* appVersion 终端应用版本
+* platform 平台类型 IOS/Android
+* sign 数字签名
