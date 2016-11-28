@@ -1,4 +1,4 @@
-#创建预订单
+#支付
 pay/confirm | post
 > 参数
 * orderId 订单ID
