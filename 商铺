@@ -1,0 +1,10 @@
+#交易记录
+shop/trading-record | get
+> 参数  
+* timeline 
+* timeType
+
+> 返回  
+* code 状态码
+* msg 状态信息
+* data [PTradingRecord]
