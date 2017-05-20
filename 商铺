@@ -7,4 +7,24 @@ shop/trading-record | get
 > 返回  
 * code 状态码
 * msg 状态信息
-* data [PTradingRecord]
+* data {funds:100(总余额),records:[PTradingRecord]}
+
+#商铺商品列表
+shop/commodity-list
+> 参数
+* timeline 
+* timeType 
+* filter=onsale|offshelf|stocktight(库存低于5个)
+
+> 返回
+* code 状态码
+* msg 状态信息
+* data:[PMyCommodity]
+
+#橱窗管理
+shop/showcase-set
+> 参数 cids=cid,cid,cid（商品id,逗号隔开）
+
+> 返回
+* code 状态码
+* msg 状态信息
