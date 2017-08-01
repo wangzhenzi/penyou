@@ -8,7 +8,17 @@ shop/detail | get
 > 返回  
 * code 状态码
 * msg 状态信息
-* data {showcase:橱窗商品,funds:100(总余额),on_send_order_count:代发货订单数量,evaluation_count:评价数量,shipping_setting:邮费设置}
+* data {showcase:橱窗商品,funds:100(总余额),on_send_order_count:代发货订单数量,evaluation_count:评价数量}
+
+#邮费信息
+shop/shipping-info | get
+> 参数  
+* userId 
+
+> 返回  
+* code 状态码
+* msg 状态信息
+* data PShippingRule
 
 #交易记录
 shop/trading-record | get
