@@ -32,6 +32,7 @@ shop/add-shipping-rule | post
 > 返回  
 * code 状态码
 * msg 状态信息
+* data PShippingRule
 
 #修改邮费规则
 shop/modify-shipping-rule | post
@@ -42,6 +43,17 @@ shop/modify-shipping-rule | post
 * firstWeight 首重
 * firstWeightPrice 首重价格
 * addedWeightPrice 续重价格
+
+> 返回  
+* code 状态码
+* msg 状态信息
+* data PShippingRule
+
+#删除邮费规则
+shop/delete-shipping-rule | post
+> 参数
+* userId
+* ruleId 规则ID
 
 > 返回  
 * code 状态码
