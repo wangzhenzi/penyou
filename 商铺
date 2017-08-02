@@ -20,6 +20,44 @@ shop/shipping-info | get
 * msg 状态信息
 * data PShippingRule
 
+#新增邮费规则
+shop/add-shipping-rule | post
+> 参数  
+* userId
+* province 省份名称,逗号隔开
+* firstWeight 首重
+* firstWeightPrice 首重价格
+* addedWeightPrice 续重价格
+
+> 返回  
+* code 状态码
+* msg 状态信息
+
+#修改邮费规则
+shop/modify-shipping-rule | post
+> 参数  
+* userId
+* ruleId 规则id
+* province 省份名称,逗号隔开
+* firstWeight 首重
+* firstWeightPrice 首重价格
+* addedWeightPrice 续重价格
+
+> 返回  
+* code 状态码
+* msg 状态信息
+
+#修改邮费设置
+shop/modify-shipping-setting | post
+> 参数  
+* userId
+* freeShipAmount 满额包邮额度
+* freeShipTips 满额包邮说明
+
+> 返回  
+* code 状态码
+* msg 状态信息
+
 #交易记录
 shop/trading-record | get
 > 参数  
