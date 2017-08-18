@@ -87,6 +87,7 @@ shop/commodity-list
 * timeline 
 * timeType 
 * filter=onsale|offshelf|stocktight(库存低于5个)
+* pageNum 页数 默认0
 
 > 返回
 * code 状态码
