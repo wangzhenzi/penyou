@@ -8,18 +8,17 @@ shop/detail | get
 > 返回  
 * code 状态码
 * msg 状态信息
-* data {showcase:橱窗商品,funds:100(总余额),on_send_order_count:代发货订单数量,evaluation_count:评价数量, funds_modified:资金状态(0 未更新 1 已更新),
-comment_modified:评价状态(0 未更新 1 已更新)}
+* data {showcase:橱窗商品,funds:100(总余额),on_send_order_count:代发货订单数量,evaluation_count:评价数量}
 
 #设置状态已读
-shop/set-read | post
+shop/tip | get
 > 参数  
-* userId 
-* col funds_modified 资金 | comment_modified 评价
+* userId
 
 > 返回  
 * code 状态码
 * msg 状态信息
+* data  funds_modified:资金更新时间,comment_modified:评价更新时间
 
 #邮费信息
 shop/shipping-info | get
