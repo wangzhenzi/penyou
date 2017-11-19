@@ -95,6 +95,7 @@ shop/trading-record | get
 #商铺商品列表
 shop/commodity-list
 > 参数
+* userId
 * timeline 
 * timeType 
 * filter=onsale|offshelf|stocktight(库存低于5个)
