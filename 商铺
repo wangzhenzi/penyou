@@ -108,7 +108,9 @@ shop/commodity-list
 
 #橱窗管理
 shop/showcase-set
-> 参数 cids=cid,cid,cid（商品id,逗号隔开）
+> 参数
+* userId
+* cids=cid,cid,cid（商品id,逗号隔开）
 
 > 返回
 * code 状态码
