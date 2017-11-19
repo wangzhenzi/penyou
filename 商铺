@@ -83,6 +83,7 @@ shop/modify-shipping-setting | post
 #交易记录
 shop/trading-record | get
 > 参数  
+* userId
 * timeline 
 * timeType
 
