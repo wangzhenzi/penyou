@@ -4,3 +4,35 @@
 * appVersion 终端应用版本
 * platform 平台类型 IOS/Android
 * sign 数字签名
+
+* 需要传递公共参数的接口
+* /web/index.php?r=bucket/upload-callback
+* /web/index.php?r=category/favorite
+* /web/index.php?r=category/cancel-favorite
+* /web/index.php?r=comment/add-comment
+* /web/index.php?r=comment/add-evaluation
+* /web/index.php?r=commodity/release
+* /web/index.php?r=commodity/modify
+* /web/index.php?r=commodity/shipping-fee
+* /web/index.php?r=commodity/recommend
+* /web/index.php?r=commodity/del
+* /web/index.php?r=favorite/add-favorite
+* /web/index.php?r=favorite/delete-favorite
+* /web/index.php?r=favorite/favorite
+* /web/index.php?r=message/send-message
+* /web/index.php?r=message/messages
+* /web/index.php?r=message/send-recve
+* /web/index.php?r=order/preorder
+* /web/index.php?r=order/modify-fee
+* /web/index.php?r=order/orderlist
+* /web/index.php?r=order/count
+* /web/index.php?r=order/cancel
+* /web/index.php?r=order/send-out
+* /web/index.php?r=order/extend-recvtime
+* /web/index.php?r=order/recv
+* /web/index.php?r=pay/confirm
+* /web/index.php?r=pay/prepay
+* /web/index.php?r=refund/add
+* /web/index.php?r=refund/orderlist
+* /web/index.php?r=refund/add-event
+* /web/index.php?r=refund/agree
