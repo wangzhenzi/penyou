@@ -1,0 +1,13 @@
+商品详情 pzplayer://commodity-detail?id=54362d65dd9aeb04b2c1f52d9d8b04c4
+玩家主页 pzplayer://player-home?id=ca686b8e5a6a2d5c7dc0817b36736d48
+搜索 pzplayer://search?key=粗陶
+分类详情 pzplayer://category-detail?id=006114A4A56F4CCA9F6AA808FA612A0E
+评论列表 pzplayer://comment-list?type=1&targetId=54362d65dd9aeb04b2c1f52d9d8b04c4
+评论详情 pzplayer://comment-detail?id=4e5c3f9507bfbff5e2ea3fdd85b9fd63
+订单中心 pzplayer://order-center
+卖家待发货订单 pzplayer://order-center?tab=2&isSellerMode=1
+买家待收货订单 pzplayer://order-center?tab=3
+订单详情 pzplayer://order-detail?id=15026178047635088
+退货订单详情 pzplayer://refund-order-detail?id=15024619528366992
+商品管理 pzplayer://commodity-manage
+缺货商品列表 pzplayer://commodity-manage?tab=3
